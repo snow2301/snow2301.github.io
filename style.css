@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+}
+
+.nav {
+  width: 100%;
+  background-color: khaki;
+  display: flex;
+  justify-content: right;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 100px;
+
+}
+
+.nav-menu {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-2 {
+  width: 90%;
+  height: 300px;
+  background-color: rgb(255, 248, 184, 80);
+  margin-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content-3 {
+  width: 100%;
+  height: 900px;
+  margin-top: 80px;
+}
+
+.text {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  font-family: "Heebo", sans-serif;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 44px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.text-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.image {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  margin-right: 100px;
+}
+
+.download-button{
+  width: 100px;
+  height: 30px;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post1 {
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  padding: 10px;
+}
+
+.post2{
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  padding: 10px;
+}
+
+.reports {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con {
+  margin: 20px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-button{
+  color: brown;
+}
+
+.p1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.p2 {
+  font-size: 15px;
+}
+
+.work1 {
+  background-color: darkgray;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+.work2 {
+  background-color: gold;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+.work3 {
+  background-color: lightpink;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
